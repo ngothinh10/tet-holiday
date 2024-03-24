@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact2 input {
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+
+.contact2 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(25, 22, 22);
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 230px;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contact h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 20px 0;
+}
+.contact2 a {
+  text-decoration: none;
+}
